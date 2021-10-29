@@ -6,14 +6,12 @@ No solamente necesitamos tener 2 variables si no necesitamos otra variable que g
 y que esa misma variable aux (auxiliar) le de el valor guardado de "a" a la variable "b"
 """
 
-print("Introduce la variable A: ")
-A = int(input())
-print("Introduce la variable B: ")
-B = int(input())
+a = int(input("Introduce la variable A: "))
+b = int(input("Introduce la variable B: "))
 
-aux = A
-A = B
-B = aux
+aux = a
+a = b
+b = aux
 
-print("Nuevo valor de a: " + str(A))
-print("Nuevo valor de b: " + str(B))
+print(f"Nuevo valor de a: {a}")
+print(f"Nuevo valor de b: {b}")

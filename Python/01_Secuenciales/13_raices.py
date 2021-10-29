@@ -8,14 +8,10 @@ cúbica no debido a que no podemos elevar nada en esa función por lo que lo har
 
 import math
 
-print("Dame un número para hacerte la raíz cuadrad y su raíz cúbica: ")
-num = int(input())
+num = int(input( "Indica el numero para hacer la raíz cuadrada y cúbica: "))
 
 raiz_cuadrada = math.sqrt(num)
 raiz_cubica = round(num ** 1/3, 1)
 
-print("Esta sería la raíz cuadrada: " + str(raiz_cuadrada))
-print("Esta sería la raíz cúbica: " + str(raiz_cubica))
-
-
-
+print(f"La raíz cuadrada es: {raiz_cuadrada}")
+print(f"La raíz cúbica es: {raiz_cubica}")

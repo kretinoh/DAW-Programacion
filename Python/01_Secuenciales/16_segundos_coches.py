@@ -1,7 +1,5 @@
 """
 
-@author: Francisco José Gómez Ruiz
-
 Algoritmo: Dos vehículos viajan a diferentes velocidades (v1 y v2) y están distanciados por una distancia d. El que
 está detrás viaja a una velocidad mayor. Se pide hacer un algoritmo para ingresar la distancia entre los dos
 vehículos (km) y sus respectivas velocidades (km/h) y con esto determinar y mostrar en que tiempo (minutos)
@@ -14,14 +12,11 @@ igual a la distancia entre la velocidad en km/h de ambos coches.
 
 """
 
-print("Ingrésame la velocidad 1 del primer coche: ")
-velocidad_1 = float(input())
-print("Ingrésame la velocidad 2 del primer coche: ")
-velocidad_2 = float(input())
-print("A cuanta distancia están ambos: ")
-distancia = float(input())
+
+velocidad_1 = float(input("Ingresa la velocidad 1 del primer coche: "))
+velocidad_2 = float(input("Ingresa la velocidad 2 del primer coche"))
+distancia = float(input( "A qué distancia están ambos: "))
 
 tiempo = distancia / (velocidad_1 - velocidad_2)
 tiempo = -(tiempo * 60)
-print("Según la serie de datos que me has dado el tiempo que tardaría en coger el segundo coche al primero sería de:" +
-      str(tiempo) + "minutos.")
+print(f"Según los datos ingresadosel tiempo que tardaría en coger el segundo coche al primero sería de: {tiempo} minutos")

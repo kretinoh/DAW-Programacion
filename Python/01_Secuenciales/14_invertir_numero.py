@@ -9,4 +9,4 @@ dec = num / 10
 uni = num % 10
 
 numero_invertido = round(uni * 10 + dec, 0)
-print("Numero invertido: " + str(numero_invertido))
+print(f"El número invertido es {numero_invertido} ")

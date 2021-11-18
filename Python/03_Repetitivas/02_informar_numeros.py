@@ -15,9 +15,9 @@ while cantidad_num >= 1:
     num = int(input("Introduzca un número: "))
     if num > 0:
         mayores += 1
-    if num < 0:
+    elif num < 0:
         menores += 1
-    if num == 0:
+    elif num == 0:
         iguales += 1
 print(f"Has introducido un total de {mayores} numeros mayores de cero,"
       f" {menores} numeros menores de cero y {iguales} numeros iguales a cero")

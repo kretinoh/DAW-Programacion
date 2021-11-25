@@ -7,4 +7,10 @@
 """
 
 num_total = int(input("Introduce el numero total de primos a mostrar: "))
+while True:
+    primo = 3
+    print("1º: 2")
+    cantidad_primos = 1
+    while cantidad_primos < num_total:
+        es_primo = True
 

@@ -15,9 +15,9 @@ num_fin = int(input("Introduce el numero de fin: "))
 if num_ini < num_fin:
     if num_ini % 2 == 0:
         for i in range(num_ini, num_fin + 1, 2):
-            print(i)
+            print(i, end=", ")
     else:
         for i in range(num_ini + 1, num_fin + 1, 2):
-            print(i)
+            print(i, end=", ")
 else:
     print("Has introducido un número mayor de inicio que el inicio")
